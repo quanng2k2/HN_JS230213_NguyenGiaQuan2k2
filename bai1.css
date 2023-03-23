@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  color: rgb(204, 51, 204);
+}
+
+#tableUrser {
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 550px;
+  height: 200px;
+  background-color: antiquewhite;
+  text-align: center;
+  margin-left: 30%;
+}
+
+#tableUrser #pointComment {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 60%;
+}
+
+.commentClick {
+  margin-top: 20px;
+}
+
+.commentClick input {
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.commentClick button {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#pointComment:hover {
+  background-color: rgb(181, 94, 162);
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: antiquewhite;
+  width: 550px;
+  height: 100px;
+  margin-left: 30%;
+  border-radius: 30px;
+}
+.container #pointComment {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 60%;
+  background-color:  rgb(181, 94, 162);
+  color: aliceblue;
+}
+
+.twoIcon {
+  margin-left: 500px;
+  margin-bottom:30px ;
+  position: relative;
+  bottom: 20px;
+}
+
+.textTwo {
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+}
